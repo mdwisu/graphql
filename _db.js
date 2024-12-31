@@ -41,3 +41,27 @@ export const members = [
     verified: false,
   },
 ];
+
+export const lendings = [
+  {
+    id: "1",
+    book_id: "1",
+    member_id: "1",
+    borrowed_at: "2022-01-01",
+    returned_at: null,
+  },
+  {
+    id: "2",
+    book_id: "2",
+    member_id: "2",
+    borrowed_at: "2022-01-01",
+    returned_at: null,
+  },
+  {
+    id: "3",
+    book_id: "3",
+    member_id: "1",
+    borrowed_at: "2022-01-01",
+    returned_at: null,
+  },
+];
